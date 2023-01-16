@@ -12,7 +12,7 @@ export class TopdealsService {
 
   getTopDeals() {
     return this.http.get<Product[]>('https://bonjoebe-api-production.up.railway.app/api_products/').pipe(
-      map(products => products.slice(-3, -8))
+      map(products => products.slice(-8, -3))
     );
   }
 }
