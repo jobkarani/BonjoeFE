@@ -7,6 +7,7 @@ import { HomeRoutingModule } from './home-routing.module';
 import { CategoriesComponent } from './categories/categories.component';
 import { ShippingComponent } from './shipping/shipping.component';
 import { TopDealsComponent } from './top-deals/top-deals.component';
+import { TopSellingComponent } from './top-selling/top-selling.component';
 
 
 
@@ -16,7 +17,8 @@ import { TopDealsComponent } from './top-deals/top-deals.component';
     IndexComponent,
     CategoriesComponent,
     ShippingComponent,
-    TopDealsComponent
+    TopDealsComponent,
+    TopSellingComponent
   ],
   imports: [
     CommonModule,
