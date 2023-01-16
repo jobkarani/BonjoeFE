@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class NavbarComponent {
 
+  navBarFunction() {
+    document.getElementsByClassName("navbar")[0].classList.toggle("responsive");
+  }
+
 }
