@@ -1,7 +1,10 @@
 /* dsls;k;ldsk */
 
 .mySlides {display: none;}
-.fade>img {vertical-align: middle;}
+.fade>img {
+  vertical-align: middle;
+  height: 80vh;
+}
 
 /* Slideshow container */
 .slideshow-container {
@@ -66,3 +69,191 @@
 }
 
 /* ds,lsdkldksalk */
+
+
+/* best seller section  */
+
+section{
+  display: flex;
+  margin: 20px 60px;
+}
+
+.cat{
+  width: 60%;
+  margin: 0 5px;
+  position: relative;
+}
+
+.cat:hover img{
+  transition: transform 2s cubic-bezier(.19,1,.22,1),opacity 2s cubic-bezier(.19,1,.22,1);
+  transform: translateX(10px);
+  transform: translateY(10px);
+}
+
+.background {
+  width: 100%;
+  font-size: 15px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.para{
+  width: 100%;
+  height: 25vh;
+  position: relative;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+}
+
+.image img{
+  width: 100%;
+  height: 25vh;
+  border-radius: 5px;
+}
+
+.name{
+  position: absolute;
+  bottom: 10%;
+  left: 12%;
+}
+
+.top{
+  z-index: 1;
+  color: coral;
+  font-size: 20px;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+.mid{
+  z-index: 1;
+  color: #fff;
+  font-size: 25px;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+.bottom{
+  z-index: 1;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+@media only screen and (max-width: 850px) {
+  section{
+      display: block;
+      margin: 20px 20px;
+  }
+
+  .cat{
+      width: 100%;
+      margin: 10px 0;
+      position: relative;
+  }
+
+  .image img{
+      width: 100%;
+      height: 20vh;
+      border-radius: 5px;
+  }
+
+  .para{
+      width: 100%;
+      height: 20vh;
+      position: relative;
+      background: rgba(0, 0, 0, 0.6);
+      border-radius: 5px;
+  }
+
+  .name{
+    position: absolute;
+    bottom: 10%;
+    left: 12%;
+  }
+  
+  .top{
+    z-index: 1;
+    color: coral;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: capitalize;
+  }
+  
+  .mid{
+    z-index: 1;
+    color: #fff;
+    font-size: 25px;
+    font-weight: 500;
+    text-transform: capitalize;
+  }
+  
+  .bottom{
+    z-index: 1;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: capitalize;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  section{
+      display: block;
+      margin: 20px 20px;
+  }
+
+  .cat{
+      width: 100%;
+      margin: 10px 0;
+      position: relative;
+  }
+
+  .image img{
+      width: 100%;
+      height: 20vh;
+      border-radius: 5px;
+  }
+
+  .para{
+      width: 100%;
+      height: 20vh;
+      position: relative;
+      background: rgba(0, 0, 0, 0.6);
+      border-radius: 5px;
+  }
+
+  .name{
+    position: absolute;
+    bottom: 10%;
+    left: 12%;
+  }
+  
+  .top{
+    z-index: 1;
+    color: coral;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: capitalize;
+  }
+  
+  .mid{
+    z-index: 1;
+    color: #fff;
+    font-size: 19px;
+    font-weight: 500;
+    text-transform: capitalize;
+  }
+  
+  .bottom{
+    z-index: 1;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: capitalize;
+  }
+}
+
+/* end of best seller  */
