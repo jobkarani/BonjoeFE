@@ -6,6 +6,7 @@ import { SharedModule } from '../shared/shared.module';
 import { HomeRoutingModule } from './home-routing.module';
 import { CategoriesComponent } from './categories/categories.component';
 import { ShippingComponent } from './shipping/shipping.component';
+import { TopDealsComponent } from './top-deals/top-deals.component';
 
 
 
@@ -14,7 +15,8 @@ import { ShippingComponent } from './shipping/shipping.component';
     HomeComponent,
     IndexComponent,
     CategoriesComponent,
-    ShippingComponent
+    ShippingComponent,
+    TopDealsComponent
   ],
   imports: [
     CommonModule,
