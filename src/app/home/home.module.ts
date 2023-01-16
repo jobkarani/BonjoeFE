@@ -5,6 +5,7 @@ import { HomeComponent } from './home.component';
 import { SharedModule } from '../shared/shared.module';
 import { HomeRoutingModule } from './home-routing.module';
 import { CategoriesComponent } from './categories/categories.component';
+import { ShippingComponent } from './shipping/shipping.component';
 
 
 
@@ -12,7 +13,8 @@ import { CategoriesComponent } from './categories/categories.component';
   declarations: [
     HomeComponent,
     IndexComponent,
-    CategoriesComponent
+    CategoriesComponent,
+    ShippingComponent
   ],
   imports: [
     CommonModule,
