@@ -6,6 +6,7 @@ import { SharedModule } from '../shared/shared.module';
 import { ShopRoutingModule } from './shop-routing.module';
 import { ProductDetailsComponent } from './product-details/product-details.component';
 import { NgxPaginationModule } from 'ngx-pagination';
+import { CategoriesComponent } from './categories/categories.component';
 
 
 
@@ -13,7 +14,8 @@ import { NgxPaginationModule } from 'ngx-pagination';
   declarations: [
     ShopComponent,
     ProductsComponent,
-    ProductDetailsComponent
+    ProductDetailsComponent,
+    CategoriesComponent
   ],
   imports: [
     CommonModule,
