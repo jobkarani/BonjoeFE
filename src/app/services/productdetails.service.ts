@@ -8,11 +8,11 @@ import { Product } from '../interfaces/product';
 })
 export class ProductdetailsService {
 
-  id = 0;
+  id:number = 0;
 
   constructor(private http:HttpClient) { }
 
   getProductDetails(id:number): Observable<Product[]> {
-    return this.http.get<Product[]>('https://bonjoebe-api-production.up.railway.app/api_products/' + id);
+    return this.http.get<Product[]>('https://bonjoebe-api-production.up.railway.app/getProductDetails/' + id);
   }
 }

@@ -1,13 +1,15 @@
 <section>
     <div class="cat" *ngFor="let cat of categories">
-        <div class="image">
-            <img src="{{cat.image}}" alt="">
-            <div class="background">
-                <div class="para">
-                    
+        <a [routerLink]="['/shop/category-products/',cat.id]">
+            <div class="image">
+                <img src="{{cat.image}}" alt="">
+                <div class="background">
+                    <div class="para">
+                        
+                    </div>
                 </div>
             </div>
-        </div>
-        <p class="name">{{cat.name}}</p>
-        </div>
+        </a>
+    <p class="name"> <a [routerLink]="['/shop/category-products/',cat.id]">{{cat.name}}</a></p>
+    </div>
 </section>

@@ -13,6 +13,6 @@ export class CategoriesService {
   constructor(private http :HttpClient) { }
 
   getCategoryProducts(id:number): Observable<Categoryproducts[]> {
-    return this.http.get<Categoryproducts[]>('https://bonjoebe-api-production.up.railway.app/api_categories/' + id);
+    return this.http.get<Categoryproducts[]>('https://bonjoebe-api-production.up.railway.app/api_categoryproducts/' + id);
   }
 }
