@@ -1,4 +1,5 @@
 <div class="cont">
+    <app-navbar></app-navbar>
 <div class="product-page medical">
     <div class="category-section">
         <div class="categories">
@@ -18,7 +19,7 @@
     </div>
     <div class="back">
         <div class="top">
-            <img src="https://img.freepik.com/premium-vector/cyber-monday-banner-discount-sale-background_549149-169.jpg?w=826" alt="">
+            <img src="https://img.freepik.com/premium-vector/cyber-monday-promo-banner_73458-2631.jpg?w=826" alt="">
         </div>
         <div class="products">
             <div class="card"  *ngFor="let product of products | paginate: { itemsPerPage:itemscount, currentPage:page, totalItems:count};let i = index" >
@@ -48,5 +49,5 @@
         </div>
     </div>
 </div>
-
 </div>
+<app-footer></app-footer>
