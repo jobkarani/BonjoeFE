@@ -4,8 +4,8 @@
     padding-bottom: 5%;
 }
 .medical{
-    color: #243A73;
-    margin-top: 9%;
+    color: #000;
+    margin-top: 4%;
     margin-bottom: 3%;
     font-size: 28px;
     font-weight: 700;
@@ -32,33 +32,33 @@
 }
 
 .whatsapp{
-    background-color: #25d366;
-    padding: 2% 5%;
-    color: #fff;
-    font-size: 16px;
-    font-weight: 400;
-}
-.whatsapp:hover{
-    border: 1px solid #25d366;
-    background-color: transparent;
-    padding: 2% 5%;
-    color: #25d366;
-    font-weight: 400;
-}
-.back-shop{
-    margin-left: 20%;
     background-color: coral;
     padding: 2% 5%;
     color: #fff;
     font-size: 16px;
     font-weight: 400;
 }
-.back-shop:hover{
+.whatsapp:hover{
     border: 1px solid coral;
-    margin-left: 20%;
     background-color: transparent;
     padding: 2% 5%;
     color: coral;
+    font-weight: 400;
+}
+.back-shop{
+    margin-left: 20%;
+    background-color: #D6E4E5;
+    padding: 2% 5%;
+    color: #000;
+    font-size: 16px;
+    font-weight: 400;
+}
+.back-shop:hover{
+    border: 1px solid #D6E4E5;
+    margin-left: 20%;
+    background-color: transparent;
+    padding: 2% 5%;
+    color: #000;
     font-weight: 400;
 }
 
@@ -73,7 +73,7 @@
 .pay{
     margin: 20px 0;
     font-size: 28px;
-    color: #243A73;
+    color: #000;
     font-weight: 700;
     text-transform: capitalize;
 }
@@ -128,7 +128,7 @@
     .pay{
         margin: 20px 0;
         font-size: 28px;
-        color: #243A73;
+        color: #000;
         font-weight: 700;
         text-transform: capitalize;
     }
@@ -180,7 +180,7 @@
     .pay{
         margin: 20px 0;
         font-size: 20px;
-        color: #243A73;
+        color: #000;
         font-weight: 700;
         text-transform: capitalize;
     }
@@ -627,7 +627,7 @@
     height: 3.5rem;
     line-height: 4.5rem;
     text-align: center;
-    background: #243A73;
+    background: #000;
     border-radius: 15px;
     color: coral;
     padding: 5px;
