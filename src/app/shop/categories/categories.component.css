@@ -1,6 +1,6 @@
 .medical{
-    color: #243A73;
-    margin-top: 9%;
+    color: #000;
+    margin-top: 6%;
     margin-bottom: 3%;
     font-size: 28px;
     font-weight: 700;
@@ -111,42 +111,57 @@
 
 .product-page{
     display: flex;
+    margin: 0 30px;
 }
 .category-section{
     width: 25%;
+}
+
+.categories {
+    padding: 3%;
+    box-shadow: 0px 0px 5px #243A73; 
+    margin-bottom: 10%;
+    height: 40vh;
+}
+.filter{
     padding: 3%;
     box-shadow: 0px 0px 5px #243A73; 
     margin-bottom: 2%;
-    margin-left: 2%;
-    height: auto;
+    height: 40vh;
 }
-.cats{
+
+.cats:hover{
     list-style-type: none;
     padding: 3%;
-    border: 1px solid #B2B2B2;
+    border: 1px solid coral;
+    background-color: #EFF5F5;
     text-align: center;
-    margin-left: -10%;
     border-radius: 5px;
 }
-.cats a{
-    text-decoration: none;
-    color: #243A73;
-    font-weight: 500;
-}
+
 .cats a:hover{
     text-decoration: none;
-    color: #fff;
+    color: coral;
+    font-weight: 500;
 }
-.cats:hover{
-    background-color: orangered;
-    color: #fff !important;
+
+.cats a{
+    text-decoration: none;
+    color: #000;
+}
+
+.cats{
+    color: #000 !important;
     list-style-type: none;
+    align-items: center;
+    text-align: center;
     padding: 3%;
     border: 1px solid #B2B2B2;
-    text-align: center;
-    margin-left: -10%;
+    background-color: #EFF5F5;
     border-radius: 5px;
+    font-size: 13px;
 }
+
 .products{
     margin-left: 2%;
     width: 70% !important;
@@ -159,13 +174,17 @@
     justify-content: center;
     grid-gap: 25px;
 }
-
 .card{
-    background-color: #E5E3DD;
+    background-color: #EFF5F5;
     -webkit-box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.2);
             box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.2);
     border-radius: 4px;
 }
+
+.card:hover{
+    transition: transform 2s cubic-bezier(.19,1,.22,1),opacity 2s cubic-bezier(.19,1,.22,1);
+    transform: translateX(5px);
+  }
 
 .details{
     display: block;
@@ -174,6 +193,7 @@
     padding-left: 3%;
     padding-right: 3%;
 }
+
 .cat-name{
     font-size: 12px;
     color: #606060;
@@ -186,6 +206,7 @@
     font-weight: 700;
     text-align: center;
 }
+
 .product-name:hover{
     text-decoration: none;
     color: coral;
@@ -208,27 +229,193 @@
 }
 
 .whatsapp{
-    background-color: #25d366;
+    background-color: coral;
     padding: 3% 6%;
     color: #fff;
     font-size: 13px;
     font-weight: 400;
 }
-
 .whatsapp:hover{
     background-color: transparent;
-    border: 1px solid #25d366;
+    border: 1px solid coral;
     padding: 3% 6%;
-    color: #25d366;
+    color: coral;
     font-weight: 400;
 }
 
+@media only screen and (max-width:850px) {
+    .medical{
+        margin-top: 15% !important;
+        margin-bottom: 5%;
+    }
+    .product-page{
+        display: block;
+    }
+    .category-section{
+        width: 80%;
+    }
+    .categories .filter{
+        padding-left: 5%;
+        margin-left: 10%;
+        margin-bottom: 5%;
+    }
+    .cats{
+        list-style-type: none;
+        padding: 3%;
+        border: 1px solid #B2B2B2;
+        background-color: transparent;
+        text-align: center;
+        margin-left: -10%;
+        border-radius: 5px;
+    }
+    .cats:hover{
+        background-color: #EFF5F5 !important;
+        color: #fff !important;
+        list-style-type: none;
+        padding: 3%;
+        border: 1px solid #B2B2B2;
+        text-align: center;
+        margin-left: -10%;
+        border-radius: 5px;
+    }
+    .cats a{
+        color: #606060;
+        font-size: x-large;
+    }
+    .products{
+        display: block;
+        margin-left: 10%;
+    }
+    .card{
+        margin-top: 5%;
+        width: 115%;
+    }
+    .cat-name{
+        text-align: left;
+        font-size: x-large;
+    }
+    .product-name{
+        text-align: left !important;
+        font-size: x-large;
+    }
+    .price-tag{
+        text-align: left;
+        margin-bottom: 5%;
+    }
+    .new-price,.old-price{
+        font-size: x-large;
+    }
+    .whatsapp{
+        margin-left: 30%;
+        font-size: x-large;
+    }
+    .product-page{
+        margin-bottom: 10%;
+    }
+    .paginate{
+        margin-left: -8%;
+        margin-bottom: 10%;
+    }
+}
 
+@media only screen and (max-width:500px) {
+    .cont{
+        margin: 0;
+        padding: 0;
+    }
+    .medical{
+        margin-top: 20% !important;
+        margin-bottom: 5%;
+    }
+    .product-page{
+        display: block;
+        padding: 0;
+        margin: 0 10px;
+    }
 
+    .category-section{
+        width: 100%;
+    }
 
+    .categories {
+        padding: 10px 20px;
+        margin-bottom: 10%;
+    }
 
+    .filter{
+        padding: 10px 20px;
+        margin-bottom: 5%;
+    }
 
+    .cats a{
+        color: #000;
+        font-size: medium;
+    }
 
+    .cats{
+        list-style-type: none;
+        padding: 3%;
+        border: 1px solid grey;
+        background-color: #EFF5F5;
+        text-align: center;
+        margin-left: -10%;
+        border-radius: 5px;
+    }
+    .cats:hover{
+        background-color: #EFF5F5 !important;
+        color: #fff ;
+        list-style-type: none;
+        padding: 3%;
+        border: 1px solid grey;
+        text-align: center;
+        margin-left: -10%;
+        border-radius: 5px;
+    }
+
+    .back{
+        margin: 0 20px;
+        width: 90%;
+        padding: 0;
+    }
+
+    .top{
+        display: none;
+    }
+    
+    .products{
+        display: block;
+        margin-left: 0;
+    }
+    .card{
+        margin-top: 5%;
+        width: 100%;
+    }
+    .cat-name{
+        text-align: left;
+        font-size: larger;
+    }
+    .product-name{
+        text-align: left !important;
+        font-size: large;
+    }
+    .price-tag{
+        text-align: left;
+    }
+    .new-price,.old-price{
+        font-size: large;
+    }
+    .whatsapp{
+        margin-left: 0;
+        font-size: large;
+    }
+    .product-page{
+        margin-bottom: 10%;
+    }
+    .paginate{
+        margin-left: -8%;
+        margin-bottom: 10%;
+    }
+}
 
 .tab_pane {
     display: none;
@@ -293,11 +480,6 @@ a:focus, a:active {
         }
     }
 
-
-
-    
-
-    
 .row {
     --bs-gutter-x: 3rem;
     --bs-gutter-y: 0;
@@ -639,10 +821,6 @@ a:focus, a:active {
     background: coral;
 }
 
-
-
-
-
 .product__secondary--img {
     position: absolute;
     top: 0;
@@ -663,8 +841,6 @@ a:focus, a:active {
     opacity: 1;
     visibility: visible
 }
-
-
 
 .product__items--img {
     display: block;

@@ -1,5 +1,23 @@
+<app-navbar></app-navbar>
 <h3 class="text-center medical" *ngIf="catproducts">{{catproducts[0].category_name | uppercase}}</h3>
 <section class="product-page">
+    <div class="category-section">
+        <div class="categories">
+            <h3 class="text-center">Shop by Categories</h3>
+            <hr>
+            <ul class="categoriess" *ngFor="let cat of cats">
+                <li class="cats" ><a [routerLink]="['/shop/category-products/',cat.id]" class="cattss" >{{ cat.name | uppercase}}</a></li>
+            </ul>
+        </div>
+        <div class="filter">
+            <h3 class="text-center">Filter by Price</h3>
+            <hr>
+            <ul class="categoriess" *ngFor="let cat of cats">
+                <li class="cats" ><a [routerLink]="['/shop/category-products/',cat.id]" class="cattss" >{{ cat.name | uppercase}}</a></li>
+            </ul>
+        </div>
+    </div>
+
     <div class="products">
         <div class="card"  *ngFor="let product of catproducts">
             <div class="product__items ">
@@ -26,3 +44,4 @@
         </div>
     </div>
 </section>
+<app-footer></app-footer>
