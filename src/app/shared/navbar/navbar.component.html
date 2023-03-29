@@ -1,16 +1,22 @@
 <header>
     <nav class="container navbar-fixed-top bg-color">
       <div class="flexa text-center">
+        <div class="one d-non">
+          <p class="logo">BONJOE <strong>Electronics</strong></p>
+        </div>
         <div class="menu-icon" [class.menu-icon-Class]="menu_icon_var" (click)="openMenu()">
           <span></span>
           <span></span>
           <span></span>
         </div>
         <div class="menu" [class.menuClass]="menuVar">
-          <ul>
+          <div class="one d-nonn">
+            <p class="logo">BONJOE <strong>Electronics</strong></p>
+          </div>
+          <ul class="two">
             <li><a class="nav-link active" routerLink="/home" routerLinkActive="active-link" ariaCurrentWhenActive="page">Home</a></li>
             <li class="li"><a class="nav-link" routerLink="/shop" routerLinkActive="active-link" ariaCurrentWhenActive="page">Shop</a></li>
-            <li class="li"><a class="nav-link" routerLink="/flavours" routerLinkActive="active-link" ariaCurrentWhenActive="page">About</a></li>
+            <li class="li"><a class="nav-link" routerLink="/about" routerLinkActive="active-link" ariaCurrentWhenActive="page">About</a></li>
             <li class="li"><a class="nav-link" routerLink="/contact" routerLinkActive="active-link" ariaCurrentWhenActive="page">Contact Us</a></li>
           </ul>
         </div>

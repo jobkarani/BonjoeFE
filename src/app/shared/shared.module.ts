@@ -5,6 +5,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { BaseLayoutComponent } from '../components/base-layout/base-layout.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { FooterComponent } from './footer/footer.component';
+import { InstagramComponent } from './instagram/instagram.component';
 
 
 @NgModule({
@@ -12,6 +13,7 @@ import { FooterComponent } from './footer/footer.component';
     BaseLayoutComponent,
     NavbarComponent,
     FooterComponent,
+    InstagramComponent,
   ],
   imports: [
     CommonModule,
@@ -23,6 +25,7 @@ import { FooterComponent } from './footer/footer.component';
     BaseLayoutComponent,
     NavbarComponent,
     FooterComponent,
+    InstagramComponent,
   ]
 })
 export class SharedModule { }

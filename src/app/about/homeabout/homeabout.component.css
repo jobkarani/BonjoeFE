@@ -1,0 +1,74 @@
+.container-full img{
+    height: 70vh;
+    margin-top: 9%;
+}
+
+.about{
+    font-size: 32px;
+    font-weight: 600;
+    padding: 20px 0;
+}
+
+.para{
+    padding: 0 10%;
+    font-size: 24px;
+    text-align: center;
+}
+.founders{
+    display: flex;
+    gap: 40%;
+    padding: 5% 10%;
+}
+.name{
+    font-size: 22px;
+}
+
+.tag{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+@media screen and (max-width: 850px) {
+    .container-full {
+      width: 100%;
+    }
+    .text {
+      padding: 20px;
+    }
+    .founders {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .founder1, .founder2 {
+      width: 100%;
+    }
+    .founder1 p, .founder2 p {
+      text-align: center;
+    }
+  }
+
+  @media screen and (max-width: 500px) {
+    .container-full {
+      width: 100%;
+    }
+    .text {
+      padding: 10px;
+    }
+    .para {
+      font-size: 14px;
+    }
+    .founders {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .founder1, .founder2 {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+    .founder1 p, .founder2 p {
+      text-align: center;
+      font-size: 12px;
+    }
+  }

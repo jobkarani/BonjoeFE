@@ -7,6 +7,10 @@ header{
     background-color: #D6E4E5;
   }
 
+  .d-non{
+    display: none;
+  }
+
   .container{
     padding: 0 0;
     margin: 0;
@@ -14,8 +18,31 @@ header{
   }
 
   .menu{
-    padding: 20px 0;
+    margin-left: 5%;
+    padding: 1% 0;
     justify-content: space-around;
+    display: flex;
+    width: 100%;
+  }
+
+  .logo{
+    text-align: center;
+    font-size: 28px;
+    font-weight: 800;
+    color: coral;
+    font-style: italic;
+  }
+
+  strong{
+    color: navy;
+  }
+
+  .one{
+    width: 20%;
+  }
+
+  .two{
+    width: 80%;
   }
   
   .menu ul{
@@ -35,7 +62,7 @@ header{
   }
   
   .li{
-    margin-left: 10%;
+    margin-left: 4%;
   }
   
   .menu ul li:hover{
@@ -46,12 +73,11 @@ header{
   .nav-link{
     color: #000; 
     text-decoration: none;
-    font-weight: 800;
     font-size: small;
     padding: 8px 10px;
     line-height: 1em;
-    font-weight: 800;
-    font-size: 20px;
+    font-weight: 600;
+    font-size: 17px;
     text-transform: uppercase;
     transition: color .25s;
     }
@@ -70,8 +96,43 @@ header{
     header{
       padding: 8px 0;
     }
+
+    .bg-color{
+      height: 5vh;
+    }
+
+    .flexa{
+      display: flex;
+      width: 100%;
+      padding-top: 15px;
+    }
+
+    .logo{
+      width: 90%;
+      text-align: left;
+      margin-left: 5%;
+    }
+
+    .menu-icon{
+      width: 10%;
+      display: inline-block;
+      position: relative;
+      top: 10px;
+      margin-right: 5%;
+      justify-content: right;
+    }
+
+    .d-non{
+      background-color: red !important;
+      display: contents;
+    }
+
+    .d-nonn{
+      display: none;
+    }
   
     .menu{
+      display: block;
       position: fixed;
       right: -100%;
       top: 44px;
@@ -82,6 +143,15 @@ header{
       transition: .4s ease-in-out;
       z-index: 999;
       overflow-x: hidden !important;
+    }
+
+    .one, .two{
+      width: 100%;
+    }
+
+    .logo{
+      font-size: 18px;
+      font-weight: 500;
     }
   
     .menu ul li{
@@ -96,15 +166,7 @@ header{
       color: #686868;
       text-transform: uppercase;
     }
-  
-    .menu-icon{
-      display: inline-block;
-      position: relative;
-      top: 10px;
-      float: right;
-      margin-right: 5%;
-    }
-  
+
     .menu-icon span{
       width: 32px;
       height: 3px;
@@ -140,11 +202,14 @@ header{
   
     header{
       padding: 10px 0;
-      /* background-color: transparent; */
     }
   
     .container{
       width: 100%;
+    }
+
+    .bg-color{
+      height: 8vh;
     }
   
     .menu{
