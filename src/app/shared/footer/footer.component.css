@@ -173,3 +173,8 @@ ul {
   font-size: 14px;
   color: #fff;
 }
+@media screen and (max-width: 500px) {
+  .single-cta {
+    margin-top: 5%;
+  }
+}

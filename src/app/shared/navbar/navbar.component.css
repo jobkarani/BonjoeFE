@@ -99,6 +99,7 @@ header{
 
     .bg-color{
       height: 5vh;
+      background-color: #D6E4E5;
     }
 
     .flexa{
@@ -139,7 +140,7 @@ header{
       width: 280px;
       height: auto;
       padding: 20% 0;
-      background-color: #f5f0ef;
+      background-color: #D6E4E5;
       transition: .4s ease-in-out;
       z-index: 999;
       overflow-x: hidden !important;
@@ -210,6 +211,7 @@ header{
 
     .bg-color{
       height: 8vh;
+      background-color: #D6E4E5;
     }
   
     .menu{
@@ -218,7 +220,7 @@ header{
       top: 50px;
       width: 280px;
       height: auto;
-      background-color: #f5f0ef;
+      background-color: #D6E4E5;
       transition: .4s ease-in-out;
       z-index: 999;
       overflow-x: none;
