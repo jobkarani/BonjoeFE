@@ -3,7 +3,7 @@ ul {
     padding: 0px;
 }
 .footer-section {
-  background: #D6E4E5;
+  background: linear-gradient(to top, rgb(73,113,116)10%, rgb(214,228,229)100%);
   position: relative;
 }
 .footer-cta {

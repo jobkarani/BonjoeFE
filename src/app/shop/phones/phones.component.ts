@@ -33,7 +33,7 @@ export class PhonesComponent implements OnInit {
   }
 
   getData() {
-    this.http.get<Product[]>('https://bonjoebe-api-production.up.railway.app/api_phones/').subscribe(response => {
+    this.http.get<Product[]>('https://bonjoebe-api.up.railway.app/api_phones/').subscribe(response => {
       this.products  = response;
     });
   }

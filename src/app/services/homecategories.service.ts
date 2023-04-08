@@ -11,13 +11,13 @@ export class HomecategoriesService {
   constructor(private http: HttpClient) { }
 
   getCategories() {
-    return this.http.get<Category[]>('https://bonjoebe-api-production.up.railway.app/api_categories/').pipe(
+    return this.http.get<Category[]>('https://bonjoebe-api.up.railway.app/api_categories/').pipe(
       map(category => category)
     );
   }
 
   getPhoneCategories() {
-    return this.http.get<Category[]>('https://bonjoebe-api-production.up.railway.app/api_phone_categories/').pipe(
+    return this.http.get<Category[]>('https://bonjoebe-api.up.railway.app/api_phone_categories/').pipe(
       map(category => category)
     );
   }
