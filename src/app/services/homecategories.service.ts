@@ -15,4 +15,9 @@ export class HomecategoriesService {
       map(category => category)
     );
   }
+  getPhoneCategories() {
+    return this.http.get<Category[]>('https://bonjoebe-api-production.up.railway.app/api_phone_categories/').pipe(
+      map(category => category)
+    );
+  }
 }

@@ -7,6 +7,8 @@ import { ShopRoutingModule } from './shop-routing.module';
 import { ProductDetailsComponent } from './product-details/product-details.component';
 import { NgxPaginationModule } from 'ngx-pagination';
 import { CategoriesComponent } from './categories/categories.component';
+import { PhonesComponent } from './phones/phones.component';
+import { PhonecategoriesComponent } from './phonecategories/phonecategories.component';
 
 
 
@@ -15,7 +17,9 @@ import { CategoriesComponent } from './categories/categories.component';
     ShopComponent,
     ProductsComponent,
     ProductDetailsComponent,
-    CategoriesComponent
+    CategoriesComponent,
+    PhonesComponent,
+    PhonecategoriesComponent
   ],
   imports: [
     CommonModule,
