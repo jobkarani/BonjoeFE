@@ -15,4 +15,8 @@ export class ProductdetailsService {
   getProductDetails(id:number): Observable<Product[]> {
     return this.http.get<Product[]>('https://bonjoebe-api-production.up.railway.app/getProductDetails/' + id);
   }
+
+  getPhoneDetails(id:number): Observable<Product[]> {
+    return this.http.get<Product[]>('https://bonjoebe-api-production.up.railway.app/getPhoneDetails/' + id);
+  }
 }

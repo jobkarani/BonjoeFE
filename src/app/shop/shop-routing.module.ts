@@ -6,6 +6,7 @@ import { ProductsComponent } from './products/products.component';
 import { ShopComponent } from './shop.component';
 import { PhonesComponent } from './phones/phones.component';
 import { PhonecategoriesComponent } from './phonecategories/phonecategories.component';
+import { PhoneDetailsComponent } from './phone-details/phone-details.component';
 
 const routes: Routes = [
   {
@@ -16,6 +17,7 @@ const routes: Routes = [
         { path: 'product-details/:id', component: ProductDetailsComponent },
         { path: 'category-products/:id', component: CategoriesComponent },
         { path: 'phones', component: PhonesComponent },
+        { path: 'phone-details/:id', component: PhoneDetailsComponent },
         { path: 'category-phones/:id', component: PhonecategoriesComponent },
       ],
   }
