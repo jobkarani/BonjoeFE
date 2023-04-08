@@ -1,23 +1,76 @@
-.container-full img{
-    height: 70vh;
-    margin-top: 9%;
+.banner{
+    height: 30vh;
+    background-color: #ffc107;
+    margin-top: 5.5%;
+}
+
+.h1{
+  color: #fff;
+  font-size: 38px;
+  font-weight: 800;
+  text-align: center;
+  padding-top: 6%;
+}
+
+.dis-flex{
+  display: flex;
+  width: 100%;
+  padding: 5% 2%;
+}
+
+.images{
+  padding: 0 1%;
+  display: flex;
+  width: 50%;
+  gap: 10px;
+}
+
+.img{
+  width: 50%;
+}
+
+.img img{
+  width: 100%;
+  border-radius: 10px;
+}
+
+.one{
+  margin-top: 20%;
+}
+
+.text{
+  padding: 0 1%;
+  display: block;
+  width: 50%;
 }
 
 .about{
-    font-size: 32px;
+    color: coral;
+    font-size: 28px;
     font-weight: 600;
     padding: 20px 0;
 }
 
+.h2{
+  font-size: 28px;
+  font-weight: 600;
+  padding: 10px 0;
+}
+
 .para{
-    padding: 0 10%;
-    font-size: 24px;
-    text-align: center;
+    padding: 0 0;
+    font-size: 18px;
+    text-align: left;
 }
 .founders{
     display: flex;
-    gap: 40%;
-    padding: 5% 10%;
+    gap: 10%;
+    padding: 5% 0;
+    width: 100%;
+}
+
+.founder1, .founder2{
+  width: 50%;
 }
 .name{
     font-size: 22px;
@@ -28,20 +81,166 @@
     font-weight: 600;
 }
 
+/* counter section  */
+.counter{
+  width: 100%;
+  box-shadow: 0px 3px 8px #999999;
+  animation-duration: 1s;
+  animation-delay: 0s;
+  background-image: url("https://github.com/jobkarani/bonjoe-electronics/blob/master/app/static/assets/img/banner/banner-bg4.png?raw=true");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+  position: relative;
+}
+
+.row{
+  background:rgba(0, 0, 0, 0.7);
+  margin: 20px 0;
+  padding: 6% 60px;
+}
+
+.col-md-3 {
+  text-align: center;
+  padding: 50px 0;
+  border-right: 1px solid coral;
+}
+
+.col-md-3:last-child {
+  border-right: 0px solid coral;
+}
+
+count-to{
+  font-size: 30px;
+  color: coral;
+}
+
+.h3{
+  font-size: 20px;
+  color: #fff;
+}
+
+.col-md-3 i {
+  font-size: 40px;
+  color: coral;
+}
+
+@media (max-width: 991px) {
+  .row{
+    margin: 20px 0;
+    padding: 6% 10px;
+  }
+
+  .col-md-3 {
+    border-right: 0px solid coral;
+    border-bottom: 1px solid coral;
+    width: 50%;
+    margin: auto auto;
+  }
+
+  .col-md-3:first-child, .col-md-3:nth-child(2) {
+    border-top: 1px solid coral;
+  }
+  
+  .col-md-3:last-child {
+    border-bottom: 1px solid coral;
+  }
+}
+
+@media (max-width: 500px) {
+  .col-md-3 {
+    border-right: 0px solid coral;
+    border-bottom: 1px solid coral;
+    width: 50%;
+    margin: auto auto;
+  }
+
+  .col-md-3:first-child, .col-md-3:nth-child(2) {
+    border-top: 1px solid coral;
+  }
+  
+  .col-md-3:last-child {
+    border-bottom: 1px solid coral;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .counter{
+    width: 100%;
+    box-shadow: 0px 3px 8px #999999;
+    margin: 20px 0px;
+  }
+}
+
+/* end of counter section  */
+
 @media screen and (max-width: 850px) {
     .container-full {
       width: 100%;
     }
-    .text {
-      padding: 20px;
+    .banner{
+      height: 15vh;
+      background-color: #ffc107;
+      margin-top: 5.5%;
     }
+    
+    .h1{
+      color: #fff;
+      font-size: 38px;
+      font-weight: 800;
+      text-align: center;
+      padding-top: 8%;
+    }
+
+    .dis-flex{
+      display: block;
+      width: 100%;
+      padding: 5% 2%;
+    }
+    
+    .images{
+      padding: 0 1%;
+      display: flex;
+      width: 100%;
+      gap: 10px;
+    }
+
+    .img img{
+      width: 100%;
+      height: 50vh;
+      border-radius: 10px;
+    }
+
+    .one{
+      margin-top: 0;
+    }
+
+    .text {
+      width: 100%;
+    }
+
+    .about{
+      color: coral;
+      font-size: 28px;
+      font-weight: 600;
+      padding: 10px 0;
+      text-align: center;
+    }
+    
+    .h2{
+      font-size: 32px;
+      font-weight: 600;
+      padding: 5px 0;
+      text-align: center;
+    }
+
     .founders {
       display: flex;
-      flex-direction: column;
-      align-items: center;
+      width: 100%;
     }
     .founder1, .founder2 {
-      width: 100%;
+      width: 50%;
     }
     .founder1 p, .founder2 p {
       text-align: center;
@@ -52,6 +251,18 @@
     .container-full {
       width: 100%;
     }
+    .h1{
+      color: #fff;
+      font-size: 38px;
+      font-weight: 800;
+      text-align: center;
+      padding-top: 11%;
+    }
+    .img img{
+      width: 100%;
+      height: 40vh;
+      border-radius: 10px;
+    }
     .text {
       padding: 10px;
     }
@@ -60,15 +271,13 @@
     }
     .founders {
       display: flex;
-      flex-direction: column;
-      align-items: center;
+      width: 100%;
     }
     .founder1, .founder2 {
-      width: 100%;
-      margin-bottom: 20px;
+      width: 50%;
     }
     .founder1 p, .founder2 p {
-      text-align: center;
+      text-align: left;
       font-size: 12px;
     }
   }

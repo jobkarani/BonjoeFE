@@ -1,0 +1,21 @@
+.fa-solid {
+    font-size: 30px;
+    margin-left: 5px;
+    color: coral;
+}
+
+@media (max-width: 850px) {
+    .fa-solid {
+        font-size: 25px;
+        margin-left: 5px;
+        color: coral;
+    }
+}
+
+@media (max-width: 500px) {
+    .fa-solid {
+        font-size: 20px;
+        margin-left: 5px;
+        color: coral;
+    }
+}

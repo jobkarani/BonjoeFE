@@ -1,24 +1,60 @@
 <app-navbar></app-navbar>
 <div class="container-full">
-    <img src="https://img.freepik.com/free-photo/robots-with-lift-truck_1048-3521.jpg?w=826&t=st=1679731491~exp=1679732091~hmac=fdff93c61e76df7033f4970955dc449e29e11f8aa18f4227c82bc55754d1562f" alt="">
-    <div class="text">
-        <p class="about text-center">About Us</p>
-        <p class="para">
-            Welcome to <strong>Bonjoe Electronics</strong>, your number one source for all things <strong>Electronics</strong>. We're dedicated to giving you the very best of <strong>electronics</strong>, with a focus on dependability, customer service and uniqueness.                 
-            Founded in 2022 by <strong>Josiah and Boniface</strong>, <strong>Bonjoe Electronics</strong> has come a long way from its beginnings in Nairobi, gaborone rd on kamae rd, Frontline building. When <strong>Josiah and Boniface </strong> first started out, their passion for providing quality, durable and affordable products to the foot of the consumers drove them to do intense research and gave them the impetus to turn hard work and inspiration into to a booming online store. We now serve customers all over <strong>Kenya</strong>, and are thrilled to be a part of the eco-friendly and fair trade wing of the <strong>Ecommerce</strong> industry.
-            We hope you enjoy our products as much as we enjoy offering them to you. If you have any questions or comments, please don't hesitate to contact us.
-        </p>
-       <div class="founders">
-        <div class="founder1">
-            <p class="name">JOSIAH NJOROGE</p>
-            <p class="tag">Founder</p>
-        </div>
-        <div class="founder2">
-            <p class="name">BONIFACE KIMANI MUGURO</p>
-            <p class="tag">Co Founder</p>
-        </div>
-       </div>
+    <div class="banner">
+        <p class="h1">About Us</p>
     </div>
+    <div class="dis-flex">
+        <div class="images">
+            <div class="img one">
+                <img src="https://images.unsplash.com/photo-1619362200717-f5edb5cc0e43?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGVsZWN0cm9uaWNzJTIwZGV2aWNlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="about-thumb">
+            </div>
+            <div class="img">
+                <img src="https://images.unsplash.com/photo-1645102201633-4731b487327b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80" alt="about-thumb" >
+            </div>
+        </div>
+        <div class="text">
+            <p class="about">Why Choose Us</p>
+            <p class="h2">Bonjoe Electronics</p>
+            <p class="para">
+                Welcome to <strong>Bonjoe Electronics</strong>, your number one source for all things <strong>Electronics</strong>. We're dedicated to giving you the very best of <strong>electronics</strong>, with a focus on dependability, customer service and uniqueness.                 
+            </p>
+            <p class="para">
+                Founded in 2022 by <strong>Josiah and Boniface</strong>, <strong>Bonjoe Electronics</strong> has come a long way from its beginnings in Nairobi, gaborone rd on kamae rd, Frontline building. When <strong>Josiah and Boniface </strong> first started out, their passion for providing quality, durable and affordable products to the foot of the consumers drove them to do intense research and gave them the impetus to turn hard work and inspiration into to a booming online store. We now serve customers all over <strong>Kenya</strong>, and are thrilled to be a part of the eco-friendly and fair trade wing of the <strong>Ecommerce</strong> industry.
+                We hope you enjoy our products as much as we enjoy offering them to you. If you have any questions or comments, please don't hesitate to contact us.
+            </p>
+           <div class="founders">
+            <div class="founder1">
+                <p class="name">JOSIAH NJOROGE</p>
+                <p class="tag">Founder</p>
+            </div>
+            <div class="founder2">
+                <p class="name">BONIFACE KIMANI MUGURO</p>
+                <p class="tag">Co Founder</p>
+            </div>
+           </div>
+        </div>
+    </div>
+
+    <div class="container-full counter">
+        <div class="row">
+          <div class="col-md-3" >
+            <count-to [countTo]="568" [countFrom]="0"></count-to>
+            <h3 class="h3">Satisfied Clients</h3>
+          </div> 
+          <div class="col-md-3">
+            <count-to [countTo]="120" [countFrom]="0"></count-to>
+            <h3 class="h3">Monthly Orders</h3>
+          </div>
+          <div class="col-md-3">
+            <count-to [countTo]="30" [countFrom]="0"></count-to>
+            <h3 class="h3">Our Team</h3>
+          </div>
+          <div class="col-md-3">
+            <count-to [countTo]="2" [countFrom]="0"></count-to>
+            <h3 class="h3">Years of Service</h3>
+          </div>
+        </div>
+      </div>
     <app-instagram></app-instagram>
 </div>
 <app-footer></app-footer>
