@@ -3,17 +3,23 @@
 <section class="product-page">
     <div class="category-section">
         <div class="categories">
-            <h3 class="text-center">Shop by Categories</h3>
+            <h3 class="text-center">Filter by Brands</h3>
             <hr>
             <ul class="categoriess" *ngFor="let cat of cats">
                 <li class="cats" ><a [routerLink]="['/shop/category-products/',cat.id]" class="cattss" >{{ cat.name | uppercase}}</a></li>
             </ul>
         </div>
         <div class="filter">
-            <h3 class="text-center">Filter by Price</h3>
+            <h3 class="text-center">Filter by Categories</h3>
             <hr>
-            <ul class="categoriess" *ngFor="let cat of cats">
-                <li class="cats" ><a [routerLink]="['/shop/category-products/',cat.id]" class="cattss" >{{ cat.name | uppercase}}</a></li>
+            <ul class="categoriess">
+                <li class="cats" ><a [routerLink]="['/shop/']" class="cattss" >TVs & PROJECTORS</a></li>
+            </ul>
+            <ul class="categoriess">
+                <li class="cats" ><a [routerLink]="['/shop/phones/']" class="cattss" >PHONES</a></li>
+            </ul>
+            <ul class="categoriess">
+                <li class="cats" ><a [routerLink]="['/shop/fridges/']" class="cattss" >FRIDGES</a></li>
             </ul>
         </div>
     </div>

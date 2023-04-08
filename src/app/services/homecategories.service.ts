@@ -21,4 +21,10 @@ export class HomecategoriesService {
       map(category => category)
     );
   }
+
+  getFridgeCategories() {
+    return this.http.get<Category[]>('https://bonjoebe-api.up.railway.app/api_fridge_categories/').pipe(
+      map(category => category)
+    );
+  }
 }

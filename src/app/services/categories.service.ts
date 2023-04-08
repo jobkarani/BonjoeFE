@@ -19,4 +19,8 @@ export class CategoriesService {
   getCategoryPhones(id:number): Observable<Categoryproducts[]> {
     return this.http.get<Categoryproducts[]>('https://bonjoebe-api.up.railway.app/api_categoryphones/' + id);
   }
+
+  getCategoryFridges(id:number): Observable<Categoryproducts[]> {
+    return this.http.get<Categoryproducts[]>('https://bonjoebe-api.up.railway.app/api_categoryfridges' + id);
+  }
 }

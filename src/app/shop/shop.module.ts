@@ -9,6 +9,9 @@ import { NgxPaginationModule } from 'ngx-pagination';
 import { CategoriesComponent } from './categories/categories.component';
 import { PhonesComponent } from './phones/phones.component';
 import { PhonecategoriesComponent } from './phonecategories/phonecategories.component';
+import { FridgesComponent } from './fridges/fridges.component';
+import { FridgecategoriesComponent } from './fridgecategories/fridgecategories.component';
+import { FridgeDetailsComponent } from './fridge-details/fridge-details.component';
 
 
 
@@ -19,7 +22,10 @@ import { PhonecategoriesComponent } from './phonecategories/phonecategories.comp
     ProductDetailsComponent,
     CategoriesComponent,
     PhonesComponent,
-    PhonecategoriesComponent
+    PhonecategoriesComponent,
+    FridgesComponent,
+    FridgecategoriesComponent,
+    FridgeDetailsComponent
   ],
   imports: [
     CommonModule,
