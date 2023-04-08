@@ -24,10 +24,6 @@ export class PhonesComponent implements OnInit {
   constructor(private http: HttpClient,private homecategoriesService: HomecategoriesService) {}
 
   ngOnInit(): void {
-    this.homecategoriesService.getCategories().subscribe(data => {
-      this.cats = data;
-    }); 
-    
     this.homecategoriesService.getPhoneCategories().subscribe(data => {
       this.cats = data;
     });  
@@ -39,7 +35,6 @@ export class PhonesComponent implements OnInit {
   getData() {
     this.http.get<Product[]>('https://bonjoebe-api-production.up.railway.app/api_phones/').subscribe(response => {
       this.products  = response;
-      console.log(this.products)
     });
   }
 
