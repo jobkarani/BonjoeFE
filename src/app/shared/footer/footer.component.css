@@ -134,7 +134,9 @@ ul {
   padding: 14px 28px;
   background: transparent;
   border: 1px solid #2E2E2E;
-  color: #000;
+}
+.subscribe-form input::placeholder{
+  color: #e6e6e6;
 }
 .subscribe-form button {
     position: absolute;
@@ -176,5 +178,9 @@ ul {
 @media screen and (max-width: 500px) {
   .single-cta {
     margin-top: 5%;
+  }
+
+  .footer-widget{
+    margin-top: 10%;
   }
 }
