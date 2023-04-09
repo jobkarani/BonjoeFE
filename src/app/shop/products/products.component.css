@@ -178,13 +178,17 @@
 
 .top{
     padding-left: 5px;
-    display: flex;
     height: 30vh;
     margin-bottom: 20px;
+    background: linear-gradient(to top, coral 10%, #ffc107 100%);
 }
 
-.top img{
-    width: 100%;
+.h22{
+    color: #fff;
+    font-size: 38px;
+    font-weight: 800;
+    text-align: center;
+    padding-top: 8%;
 }
 
 .products{
@@ -285,11 +289,15 @@
         margin-top: 15% !important;
         margin-bottom: 5%;
     }
+
+    .top{
+        display: none;
+    }
     .product-page{
         display: block;
     }
     .category-section{
-        width: 80%;
+        width: 100%;
     }
     .categories .filter{
         padding-left: 5%;
@@ -302,7 +310,7 @@
         border: 1px solid #B2B2B2;
         background-color: transparent;
         text-align: center;
-        margin-left: -10%;
+        margin-left: 0%;
         border-radius: 5px;
     }
     .cats:hover{
