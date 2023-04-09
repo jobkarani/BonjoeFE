@@ -21,6 +21,10 @@ export class CategoriesService {
   }
 
   getCategoryFridges(id:number): Observable<Categoryproducts[]> {
-    return this.http.get<Categoryproducts[]>('https://bonjoebe-api.up.railway.app/api_categoryfridges' + id);
+    return this.http.get<Categoryproducts[]>('https://bonjoebe-api.up.railway.app/api_categoryfridges/' + id);
+  }
+
+  getCategoryHomeAppliances(id:number): Observable<Categoryproducts[]> {
+    return this.http.get<Categoryproducts[]>('https://bonjoebe-api.up.railway.app/api_categoryhomeAppliances/' + id);
   }
 }

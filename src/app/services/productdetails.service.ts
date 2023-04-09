@@ -23,4 +23,8 @@ export class ProductdetailsService {
   getFridgeDetails(id:number): Observable<Product[]> {
     return this.http.get<Product[]>('https://bonjoebe-api.up.railway.app/getFridgeDetails/' + id);
   }
+
+  getHomeApplianceDetails(id:number): Observable<Product[]> {
+    return this.http.get<Product[]>('https://bonjoebe-api.up.railway.app/getHomeAppliancesDetails/' + id);
+  }
 }

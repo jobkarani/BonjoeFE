@@ -12,6 +12,9 @@ import { PhonecategoriesComponent } from './phonecategories/phonecategories.comp
 import { FridgesComponent } from './fridges/fridges.component';
 import { FridgecategoriesComponent } from './fridgecategories/fridgecategories.component';
 import { FridgeDetailsComponent } from './fridge-details/fridge-details.component';
+import { HomeappliancesComponent } from './homeappliances/homeappliances.component';
+import { HomeappliancescategoriesComponent } from './homeappliancescategories/homeappliancescategories.component';
+import { HomeapplianceDetailsComponent } from './homeappliance-details/homeappliance-details.component';
 
 
 
@@ -25,7 +28,10 @@ import { FridgeDetailsComponent } from './fridge-details/fridge-details.componen
     PhonecategoriesComponent,
     FridgesComponent,
     FridgecategoriesComponent,
-    FridgeDetailsComponent
+    FridgeDetailsComponent,
+    HomeappliancesComponent,
+    HomeappliancescategoriesComponent,
+    HomeapplianceDetailsComponent
   ],
   imports: [
     CommonModule,
