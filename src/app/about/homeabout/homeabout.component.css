@@ -72,6 +72,11 @@
 .founder1, .founder2{
   width: 50%;
 }
+
+.founder1 img, .founder2 img{
+  width: 50%;
+}
+
 .name{
     font-size: 22px;
 }
@@ -243,7 +248,7 @@ count-to{
       width: 50%;
     }
     .founder1 p, .founder2 p {
-      text-align: center;
+      text-align: left;
     }
   }
 
