@@ -8,8 +8,8 @@ import { CategoriesComponent } from './categories/categories.component';
 import { ShippingComponent } from './shipping/shipping.component';
 import { TopDealsComponent } from './top-deals/top-deals.component';
 import { TopSellingComponent } from './top-selling/top-selling.component';
-
-
+import { TopFridgesComponent } from './top-fridges/top-fridges.component';
+import { TopHomeappliancesComponent } from './top-homeappliances/top-homeappliances.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +18,9 @@ import { TopSellingComponent } from './top-selling/top-selling.component';
     CategoriesComponent,
     ShippingComponent,
     TopDealsComponent,
-    TopSellingComponent
+    TopSellingComponent,
+    TopFridgesComponent,
+    TopHomeappliancesComponent,
   ],
   imports: [
     CommonModule,

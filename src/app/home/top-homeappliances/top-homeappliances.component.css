@@ -170,7 +170,7 @@
         border: 0;
         display: flex;
         box-shadow: none;
-        margin-bottom: 0;
+        margin: 0 0;
     }
 
     .right{
@@ -189,14 +189,14 @@
 
     .reta{
         padding: 5px 0;
-        font-size: 18px;
+        font-size: 16px;
         color: #333;
       }
 
     .reeta{
         text-align: center;
         padding: 5px 15px;
-        font-size: 18px;
+        font-size: 16px;
         width: 100%;
       }
   

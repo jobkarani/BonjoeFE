@@ -131,6 +131,11 @@
     margin-bottom: 10%;
     height: 40vh;
 }
+
+.cate{
+    height: auto !important;
+}
+
 .filter{
     padding: 3%;
     box-shadow: 0px 0px 5px #243A73; 
@@ -320,7 +325,7 @@
         padding: 3%;
         border: 1px solid #B2B2B2;
         text-align: center;
-        margin-left: -10%;
+        margin-left: 0;
         border-radius: 5px;
     }
     .cats a{
@@ -403,7 +408,7 @@
         border: 1px solid grey;
         background-color: #EFF5F5;
         text-align: center;
-        margin-left: -10%;
+        margin-left: 0;
         border-radius: 5px;
     }
     .cats:hover{
@@ -413,7 +418,7 @@
         padding: 3%;
         border: 1px solid grey;
         text-align: center;
-        margin-left: -10%;
+        margin-left: 0;
         border-radius: 5px;
     }
 

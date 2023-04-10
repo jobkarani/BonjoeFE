@@ -12,7 +12,22 @@ export class TopdealsService {
 
   getTopDeals() {
     return this.http.get<Product[]>('https://bonjoebe-api.up.railway.app/api_products/').pipe(
-      map(products => products.slice(-8, -3))
+      map(products => this.getRandomProducts(products, 5))
     );
+  }
+
+  getRandomProducts(products: Product[], count: number): Product[] {
+    const randomProducts: Product[] = [];
+    const maxIndex = products.length - 1;
+  
+    while (randomProducts.length < count) {
+      const randomIndex = Math.floor(Math.random() * maxIndex);
+      const product = products[randomIndex];
+      if (!randomProducts.includes(product)) {
+        randomProducts.push(product);
+      }
+    }
+  
+    return randomProducts;
   }
 }
