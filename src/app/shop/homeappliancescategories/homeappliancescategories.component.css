@@ -183,7 +183,7 @@
     -webkit-box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.2);
             box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.2);
     border-radius: 4px;
-    height: 50vh;
+    height: 55vh;
 }
 
 .card:hover{
@@ -294,6 +294,7 @@
     .card{
         margin-top: 5%;
         width: 115%;
+        height: auto;
     }
     .cat-name{
         text-align: left;
@@ -394,6 +395,7 @@
     .card{
         margin-top: 5%;
         width: 100%;
+        height: auto;
     }
     .cat-name{
         text-align: left;

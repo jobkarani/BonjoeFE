@@ -18,7 +18,7 @@ export class PhonesComponent implements OnInit {
   title = 'pagination';
   page:number = 1;
   count:number = 0;
-  itemscount:number = 12;
+  itemscount:number = 200;
   itemcounts: any = [4,8,12,16,20]
 
   constructor(private http: HttpClient,private homecategoriesService: HomecategoriesService) {}

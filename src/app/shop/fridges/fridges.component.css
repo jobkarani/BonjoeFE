@@ -339,6 +339,7 @@
     .card{
         margin-top: 5%;
         width: 115%;
+        height: auto;
     }
     .cat-name{
         text-align: left;
@@ -439,6 +440,7 @@
     .card{
         margin-top: 5%;
         width: 100%;
+        height: auto;
     }
     .cat-name{
         text-align: left;
